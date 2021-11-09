@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:background="@drawable/tic1"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="Play/Stop\nmusic"
+            android:id="@+id/btplay"
+            android:background="@drawable/b2"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X :"
+            android:textColor="#F3D348"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingRight="4dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#F3D348"
+            android:background="#302A2A"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingRight="10dp"
+            android:id="@+id/tvXname"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O :"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingRight="4dp"
+            android:textColor="#F3D348"
+            />
+
+        <TextView
+            android:id="@+id/tvOname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#302A2A"
+            android:text=""
+
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#F3D348"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:id="@+id/tvnameTurn"
+            android:textColor="#F3D348"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turn :"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingRight="4dp"
+            />
+        <TextView
+
+            android:textColor="#E53935"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingRight="10dp"
+            android:id="@+id/tvTurn"
+            />
+    </LinearLayout>
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="3"
+        tools:context=".GridXMLActivity"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/iB1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left|top"
+            android:tooltipText="0"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+
+
+
+            />
+        <ImageButton
+            android:id="@+id/iB2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left|top"
+            android:tooltipText="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"/>
+        <ImageButton
+            android:id="@+id/iB3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tooltipText="2"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+/>
+        <ImageButton
+            android:id="@+id/iB4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+        android:layout_gravity="left|top"
+            android:tooltipText="3"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+/>
+        <ImageButton
+            android:id="@+id/iB5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left|top"
+            android:tooltipText="4"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+/>
+        <ImageButton
+            android:id="@+id/iB6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left|top"
+            android:tooltipText="5"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+ />
+        <ImageButton
+            android:id="@+id/iB7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left|top"
+            android:tooltipText="6"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+         />
+        <ImageButton
+            android:id="@+id/iB8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left|top"
+            android:tooltipText="7"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+       />
+        <ImageButton
+            android:id="@+id/iB9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left|top"
+            android:tooltipText="8"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+      />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+
+        >
+        <Button
+            android:background="#F3D348"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEW GAME"
+            android:textSize="20dp"
+            android:layout_weight="4"
+            android:layout_margin="8dp"
+            android:id="@+id/btNew"
+            />
+        <Button
+            android:background="#F3D348"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="BACK"
+            android:textSize="20dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btBack"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+<!--    android:src=""-->

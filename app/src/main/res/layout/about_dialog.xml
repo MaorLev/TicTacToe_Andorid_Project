@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textDirection="rtl"
+    android:textAlignment="textStart"
+    android:background="@drawable/abou"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:text="בס''ד"
+        android:textAlignment="textStart"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#122732"
+        android:text="שם מבצע הפרוייקט: \nמאור לוי"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"/>
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:text="פרוייקט זה הינו פרוייקט אמצע, כאשר המשימה היא ליצור אפליקציית איקס עיגול, אשר תשוחק על יד זוג בני אדם ואופציה נוספת לאדם נגד בוט. \n\nמטעם המרצה : לביא בונימוביץ"
+    android:textStyle="italic"
+    android:layout_margin="57dp"
+    android:textColor="#122732"
+    android:gravity="center"
+    android:layout_gravity="center"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="35pt"
+    android:layout_gravity="center"
+    android:text="back"
+    android:textStyle="bold"
+    android:background="@drawable/abou"
+    android:id="@+id/btBack"/>
+
+</LinearLayout>
